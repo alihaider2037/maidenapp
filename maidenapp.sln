@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "maidenapp", "maidenapp.csproj", "{886A48A9-0A28-4F24-8BB7-FC9EBC8F810B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{886A48A9-0A28-4F24-8BB7-FC9EBC8F810B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{886A48A9-0A28-4F24-8BB7-FC9EBC8F810B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{886A48A9-0A28-4F24-8BB7-FC9EBC8F810B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{886A48A9-0A28-4F24-8BB7-FC9EBC8F810B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DA1D4F83-D71B-4333-A068-0FD312E64E91}
+	EndGlobalSection
+EndGlobal

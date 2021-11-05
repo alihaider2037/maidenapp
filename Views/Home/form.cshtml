@@ -1,0 +1,76 @@
+﻿<body>
+    <link href="~/css/site.css" rel="stylesheet" />
+
+    <h1 class="head1">Welcome to Career Counselling session registration</h1>
+    <h3>Fill the form to get register</h3>
+    <p class="alert-warning">
+        <b>Note :</b> 10th November is the last date to apply
+    </p>
+    <div class="form">
+        <form class="form">
+          
+                <input type="text" id="first-name" required class="format" name="first" placeholder="First Name" />
+                <br />
+                <input type="text" id="last-name" required class="format" name="last" placeholder="Last Name" />
+                <br />
+                <input type="email" id="email" required class="format" name="email" placeholder="abc@mail.com" />
+                <br />
+                <input type="password" id="password" required class="format" name="password" placeholder="password" />
+                <br />
+                <input type="tel" id="phoneno" required class="format" name="phoneno" placeholder="+92" />
+                <p>
+                    <b>
+
+                        Gender: <label for="male"><input type="radio" name="gender-button" />male</label>
+                        <label for="female"><input type="radio" name="gender-button" />female</label>
+                        <label for="other"><input type="radio" name="gender-button" />other</label>
+                        <br />
+                    </b>
+                    
+                    <hr />
+                        Field of intrest:
+                        <br />
+                        <label for="interest"><input type="checkbox" class="accounting" /> Acccounting</label>
+                        <br />
+
+                        <label for="interest"><input type="checkbox" class="Business" /> Business</label>
+                        <br />
+                        <label for="interest"><input type="checkbox" class="Science" /> Science</label>
+                        <br />
+                        <label for="interest"><input type="checkbox" class="Medical" /> Medical</label>
+                        <br />
+                        <label for="interest"><input type="checkbox" class="Law" /> Law</label>
+                        <br />
+                        <label for="interest"><input type="checkbox" class="IT" /> IT</label>
+                        <br />
+                        <label for="interest"><input type="checkbox" class="Arts and humanities" /> Arts and humanities</label>
+                        <br />
+                        <label for="interest"><input type="checkbox" class="Others" /> Others</label>
+                        <br />
+                        <hr />
+
+                </p>
+                <p>
+                    <br />
+                    <hr />
+                    Your Qualification: <select>
+                        <option value=none>None</option>
+                        <option value="matric">matric</option>
+                        <option value="inter">Intermediate</option>
+                        <option value="Bs">bachlors</option>
+                        <option value="Ms">masters</option>
+                    </select>
+                    <br />
+                    <br />
+                    <hr />
+                    <textarea class="format" placeholder="Any message or additional information you want to share with our team"></textarea>
+                    <br />
+                    <br />
+                    <button class="button" type="submit">Submit</button><button class="buttonb" type="reset">Reset</button>
+                </p>
+            
+        </form>
+
+    </div>
+
+</body>
